@@ -1,5 +1,15 @@
 # keyboard-avoiding-views
 
+Add maven jitpack repository:
+```
+    maven { url 'https://jitpack.io' }
+```
+and a library reference in dependencies {} block
+
+```
+    implementation "com.github.obiwanzenobi:keyboard-avoiding-views:0.0.1"
+```
+
 Use as following:
 
 ```
@@ -8,14 +18,14 @@ Use as following:
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <TextView
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!" />
 
-    </com.wojciechwarwas.keyboard_avoiding_views.KeyboardAvoidingLayout>
+</com.wojciechwarwas.keyboard_avoiding_views.KeyboardAvoidingLayout>
 
-    <com.wojciechwarwas.keyboard_avoiding_views.KeyboardAvoidingGuideline
+<com.wojciechwarwas.keyboard_avoiding_views.KeyboardAvoidingGuideline
         android:id="@+id/keyboardAvoidingGuideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +33,7 @@ Use as following:
         app:layout_constraintGuide_end="0dp"
         tools:ignore="MissingConstraints" />
 
-    <TextView
+<TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Guideline constrained"
