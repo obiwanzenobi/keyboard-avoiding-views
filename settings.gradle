@@ -1,0 +1,3 @@
+rootProject.name='keyboard_avoiding_view'
+include ':example'
+include ':keyboard_avoiding_views'
