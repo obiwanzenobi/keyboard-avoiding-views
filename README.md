@@ -1,5 +1,7 @@
 # keyboard-avoiding-views
 
+![logo](assets/logo.png)
+
 Add maven jitpack repository:
 ```
     maven { url 'https://jitpack.io' }
@@ -40,3 +42,4 @@ Use as following:
         app:layout_constraintBottom_toBottomOf="@id/keyboardAvoidingGuideline"
         app:layout_constraintEnd_toEndOf="parent" />
 ```
+![gif](assets/keyboardAvoid.gif)
